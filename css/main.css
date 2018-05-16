@@ -1,0 +1,188 @@
+/*****CSS styling*****/
+/*****BASE STYLES*****/
+
+body {
+    font-family: 'Life Savers', cursive;
+}
+
+@font-face {
+    font-family: 'better_togetherscript';
+    src: url('better_together_script-webfont.woff2') format('woff2'),
+         url('better_together_script-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+#about #work #contact {
+    height: 600px;
+}
+
+/*****GRID*****/
+
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.half-width {
+    width: 600px;
+    float: left;
+}
+
+.third-width {
+    width: 400px;
+    float: left;
+}
+
+/*****HEADER*****/
+
+header{
+    height: 800px;
+    background: url('../img/three-cacti.jpg');
+    background-size: 100% 100%;
+    position: relative; 
+    top: -48px;
+}
+
+header h1{
+    font-family: 'better_togetherscript';
+    font-size: 150px;
+    color: black;
+    padding-top: 40px;
+    margin: 20px 0px 0px 0px;
+}
+
+header h2{
+    font-size: 20px;
+    margin: 0px 0;
+    padding: 0px 350px 0px 0px;
+    clear: both;
+}
+
+
+/*****WORK*****/
+
+#work{
+    background: white;
+}
+#work h3{
+    text-align: center;
+    font-family:'Fira Sans Extra Condensed', sans-serif;
+    font-weight: 500;
+    font-size: 50px;
+    padding: 1px;
+    margin: 1px;
+}
+
+#work h4{    
+    text-align: center;
+    font-family:'Fira Sans Extra Condensed', sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    padding: 0px;
+    margin: 0px;
+}
+
+#work p{
+    padding-bottom: 140px;
+    font-size: 20px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+/*****ABOUT*****/
+
+#about h3{
+    text-align: center;
+    color: white;
+    font-weight: 500;
+    font-size: 50px;
+    padding: 30px;
+    margin: 30px;
+    font-family:'Fira Sans Extra Condensed', sans-serif;
+}
+
+#about h4{    
+    text-align: center;
+    color: white;
+    font-weight: 500;
+    font-size: 30px;
+    padding: 0px;
+    margin: 0px;
+    font-family:'Fira Sans Extra Condensed', sans-serif;
+}
+
+#about p{
+    padding-bottom: 40px;
+    color: white;
+    font-size: 20px;
+    
+}
+
+#about {
+    background: #009933;
+    width: 100%;
+    height: 600px;
+    clear: both;
+}
+
+/*****CONTACT FOOTER*****/
+
+#contact {
+    background: #004d1a;
+    width: 100%;
+    height: 600px;
+    clear: both;
+    display: inline-block;
+}
+
+#contact h3{
+    text-align: center;
+    font-weight: 500;
+    font-size: 50px;
+    color: white;
+    padding: 30px;
+    margin: 30px;
+    font-family:'Fira Sans Extra Condensed', sans-serif;
+}
+
+#contact h4{
+    text-align: center;
+    font-weight: 500;
+    font-size: 30px;
+    color: white;
+    padding: 0px;
+    margin: 0px;
+    font-family:'Fira Sans Extra Condensed', sans-serif;
+}
+
+#contact p {
+    font-size: 20px;
+    color: white;
+    text-align: center;
+
+}
+
+#contact a {
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding-left: 80px;
+    padding-right: 0px;
+
+}
+#contact ul {
+    list-style: none;
+}
+#contact ul li {
+     display: inline-block;
+}
+#contact ul img {
+    padding-right: 20px;
+}
